@@ -1,0 +1,91 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background: gray;
+}
+
+.containertop {
+    background-color: dimgray;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+
+}
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.title{
+    display: block;
+    color: white;
+    font-family: Impact;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 50px 50px;
+}
+
+a:hover{
+    color: black;
+}
+
+.mainbody{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+h1{
+    background: white;
+    font-size: 50px;
+}
+
+summary{
+    font-size: 30px;
+}
+
+p{
+    font-size: 25px;
+    margin: 25px 325px;
+}
+
+
+
+
+.containerfooter{
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.navbar2{
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.title2{
+    display: block;
+    color: white;
+    font-family: Impact;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px 50px;
