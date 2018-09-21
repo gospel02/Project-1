@@ -19,6 +19,7 @@ html,body{
 
 .mainbody{
     margin-top: 150px;
+    margin-bottom: 100px;
    
 }
 
@@ -43,7 +44,7 @@ a:hover{
     color: black;
 }
 
-.mainbody{
+.header{
     font-size: 50px;
     text-align: center;
     font-family: Impact;
@@ -51,14 +52,38 @@ a:hover{
     color: black;
 }
 
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
+.item{
+    border-radius: 5px;
+    background-color: dimgray;
+    padding: 20px;
+    margin-right: 20px;
+    width: 50%;
 
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 25px; 
+}
+
+b{
+    
+}
 
 .containerfooter{
     background-color: dimgray;

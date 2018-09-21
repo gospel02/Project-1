@@ -19,6 +19,7 @@ html,body{
 
 .mainbody{
     margin-top: 150px;
+    margin-bottom: 100px;
    
 }
 
@@ -43,7 +44,7 @@ a:hover{
     color: black;
 }
 
-.mainbody{
+.header{
     font-size: 50px;
     text-align: center;
     font-family: Impact;
@@ -51,12 +52,31 @@ a:hover{
     color: black;
 }
 
-
-.center {
+.map {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 25px;
 }
+
+
+.location{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.row{
+border-radius: 5px;
+background-color: dimgray;
+padding: 20px;
+margin-right: 20px;
+width: 50%;
+}
+
 
 
 

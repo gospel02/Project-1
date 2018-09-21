@@ -39,21 +39,62 @@ a:hover{
 }
 
 .mainbody{
-    margin-top: 150px
+    margin-top: 150px;
+    margin-bottom: 100px;
+
 }
+
+Form{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+    border-radius: 5px;
+    background: dimgray;
+    padding: 20px;
+
+}
+
+.form-group{
+    padding: 10px;
+}
+
+input{
+    height: 25px;
+    font-size: 20px;
+    width: 100%
+}
+
+textarea{
+    width: 98%;
+    padding: 10px;
+}
+
+select{
+    height: 25px;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#daytime{
+    width: 10%;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+}
+
+
+
 
 h1{
     font-size: 50px;
     background: white;
     text-align: center;
+    width: 100%;
 }
-
-
-
-
-
-
-
 
 .containerfooter{
     background-color: dimgray;
