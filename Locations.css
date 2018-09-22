@@ -17,18 +17,58 @@ html,body{
 
 }
 
+@media only screen and (max-width: 1400px){
+    .navimg{
+        height: 75px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1400px){
+    .containertop{
+        height: 75px
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .containertop{
+        height: 150px;
+        justify-content: space-evenly;
+      }
+}
+
 .mainbody{
     margin-top: 150px;
     margin-bottom: 100px;
    
 }
 
+@media only screen and (max-width: 1400px){
+    .mainbody{
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .mainbody{
+        margin-top: 150px;
+    }
+}
 
 
 .navbar{
     display: flex;
     flex-direction: row-reverse;
 
+}
+
+@media only screen and (max-width: 800px){
+    .navbar{
+        display: flex;
+        flex-direction: column-reverse;
+ 
+    }
 }
 
 .title{
@@ -38,6 +78,20 @@ html,body{
     text-decoration: none;
     font-size: 35px;
     padding: 50px 50px;
+}
+
+@media only screen and (max-width: 1400px){
+    .title{
+        padding: 25px 25px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .title{
+        padding: 5px 5px;
+        font-size: 20px;
+    }
 }
 
 a:hover{
@@ -52,12 +106,25 @@ a:hover{
     color: black;
 }
 
+@media only screen and (max-width: 1400px){
+    .header{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .header{
+        font-size: 20px;
+    }
+}
+
+
 .map {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
-    width: 1250;
+    width: 60%;
 }
 
 
@@ -70,16 +137,31 @@ a:hover{
 
 }
 
+@media only screen and (max-width: 800px){
+    .location{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+
+
 .row{
 border-radius: 5px;
 background-color: dimgray;
 padding: 20px;
 margin-right: 20px;
 width: 50%;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
+@media only screen and (max-width: 800px){
+    .row{
+        width: 90%;
+       
+    }
+}
 
 .containerfooter{
     background-color: dimgray;
@@ -109,4 +191,11 @@ width: 50%;
     text-decoration: none;
     font-size: 25px;
     padding: 20px 50px;
+}
+
+@media only screen and (max-width: 800px){
+    .title2{
+        padding: 10px 25px;
+        font-size: 20px;
+    }
 }

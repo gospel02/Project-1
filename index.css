@@ -17,7 +17,7 @@ html,body{
 
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1400px){
     .navimg{
         height: 75px;
     }
@@ -25,17 +25,17 @@ html,body{
 
 
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1400px){
     .containertop{
         height: 75px
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .containertop{
         height: 150px;
-        justify-content: space-between;
-    }
+        justify-content: space-evenly;
+      }
 }
 
 
@@ -45,13 +45,13 @@ html,body{
    
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1400px){
     .mainbody{
         margin-top: 75px;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .mainbody{
         margin-top: 150px;
     }
@@ -65,10 +65,11 @@ html,body{
 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .navbar{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+ 
     }
 }
 
@@ -83,14 +84,14 @@ html,body{
     padding: 50px 50px;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1400px){
     .title{
         padding: 25px 25px;
         font-size: 20px;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .title{
         padding: 5px 5px;
         font-size: 20px;
@@ -111,13 +112,13 @@ a:hover{
     color: black;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1400px){
     .mainbody{
         font-size: 30px;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .mainbody{
         font-size: 20px;
     }
@@ -163,7 +164,7 @@ a:hover{
     padding: 20px 50px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .title2{
         padding: 10px 25px;
         font-size: 20px;
