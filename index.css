@@ -20,9 +20,9 @@ html,body{
 @media only screen and (max-width: 1400px){
     .navimg{
         height: 75px;
+        
     }
 }
-
 
 
 @media only screen and (max-width: 1400px){
@@ -34,7 +34,14 @@ html,body{
 @media only screen and (max-width: 800px){
     .containertop{
         height: 150px;
-        justify-content: space-evenly;
+        display: inline;
+      }
+}
+
+@media only screen and (max-width: 800px){
+    .Left{
+        display: flex;
+        justify-content: center;
       }
 }
 
@@ -68,11 +75,11 @@ html,body{
 @media only screen and (max-width: 800px){
     .navbar{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
+        justify-content: center;
  
     }
 }
-
 
 
 .title{

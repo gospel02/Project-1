@@ -34,7 +34,14 @@ html,body{
 @media only screen and (max-width: 800px){
     .containertop{
         height: 150px;
-        justify-content: space-evenly;
+        display: inline;
+      }
+}
+
+@media only screen and (max-width: 800px){
+    .Left{
+        display: flex;
+        justify-content: center;
       }
 }
 
@@ -94,7 +101,8 @@ input[type=submit]:hover {
 @media only screen and (max-width: 800px){
     .navbar{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
+        justify-content: center;
  
     }
 }
